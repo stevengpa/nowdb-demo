@@ -1,0 +1,31 @@
+{
+  "name": "nowdb-demo",
+  "version": "1.0.0",
+  "description": "Demo about nowdb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenPerez/nowdb-demo.git"
+  },
+  "keywords": [
+    "nowbd",
+    "js"
+  ],
+  "author": "Steven Pérez Alfaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenPerez/nowdb-demo/issues"
+  },
+  "homepage": "https://github.com/StevenPerez/nowdb-demo#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "nowdb": "0.0.7",
+    "socket.io": "^1.7.3",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {}
+}
